@@ -7,6 +7,17 @@
     font-family: "VT323", monospace;
 }
 
+h1{
+    font-size: 3rem;
+
+    text-decoration: underline overline dashed;
+}
+
+h2, h3{
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
 hr{
     border: none;
     border-top: 3px double #00ff00;
@@ -77,8 +88,17 @@ main{
     padding: 0.5em;
 }
 
+.languages, .Tools_Frameworks, .softwares{
+    font-size: 2rem;
+}
+
+.languages>h1, .Tools_Frameworks>h1, .softwares>h1{
+    font-size: 2.5rem;
+    text-decoration: underline overline double ;
+}
+
 .Projects_Container{
-    margin: 1.5em;
+    margin: 3em;
 }
 
 .Projects_Container .title{
@@ -87,11 +107,14 @@ main{
 
 .Projects_Container p{
     margin: 1em;
+    font-size: 2.5rem;
 }
 
 .Projects_Container ul li{
     margin: 1.5em 1.5em 1.5em 4em;
     padding-left: 1em;
+
+    font-size: 2rem;
 }
 
 footer{
