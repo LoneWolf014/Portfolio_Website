@@ -130,3 +130,21 @@ footer{
 footer>a, i{
     font-size: 36pt;
 }
+
+body::after{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5) 1px,
+        transparent 1px,
+        transparent 4px
+    );
+    z-index: 9999;
+}
